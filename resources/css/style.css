@@ -293,6 +293,7 @@ header .mobile {
 #filters-section {
   padding: 4rem 0;
   background-color: #4a4a4a;
+  
 }
 
 #filters-section .content {
@@ -316,7 +317,7 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
-  
+  display: flex;
 }
 
 @media only screen and (max-width: 760px) {
@@ -340,10 +341,6 @@ header .mobile {
     line-height: 1.4;
   }
 
-  #filters-section .images-container {
-    padding: 0;
-    
-  }
 
   #filters-section .extra {
     
